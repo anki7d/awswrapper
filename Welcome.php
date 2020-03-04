@@ -11,8 +11,8 @@ class Welcome extends CI_Controller
 	public function upload()
 	{
 
-		$key = "AKIAYRCWOXENHDQUS7GN";
-		$secret = "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";
+		$key = ""; // key 
+		$secret = ""; // secret
 
 		$this->load->library('aws');
 
